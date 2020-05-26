@@ -27,7 +27,8 @@ function ActionLink() {
 //This is hard Broo!
 
 class WorkEvents extends React.Component {
-    constructor(props){
+  /*
+  constructor(props){
         super(props)
         this.state = {isWorkEventsOn : true}
    
@@ -48,7 +49,20 @@ class WorkEvents extends React.Component {
               
             </div>
             )        
+        }*/
+        handleClick() {
+          console.log('this is:', this);
         }
+      
+        render() {
+          // Essa sintaxe garante que o `this` seja vinculado ao handleClick.
+          return (
+            <button onClick={() => this.handleClick()} >
+              Click me
+            </button>
+          );
+        }
+
     }
 
 
