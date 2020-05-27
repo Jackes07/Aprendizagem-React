@@ -5,11 +5,15 @@ import WorkEvents from './estudoDeCaso/trabalhandoComEventos';
 import renderCondi from './estudoDeCaso/renderCondicional';
 import Greeting from './estudoDeCaso/renderCondicional';
 import LoginControl from './estudoDeCaso/renderCondicional';
+import ListKey from './estudoDeCaso/listaeChaves';
+import ForExport from './estudoDeCaso/extraindoComponentWithKeys';
+import ForExportElemKeys from './estudoDeCaso/chavesUnicasElementosIrmaos';
 
 
     ReactDOM.render(
         //Estou passando o objeto a ser rendenrizado e onde ele vai ser renderizado
         //Esse Clock é uma função que eu passei que estou usando ele como um elemento do react
-        <LoginControl/>,
+       
+        <ForExportElemKeys />,
         document.getElementById('root')
     );
