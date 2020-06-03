@@ -13,6 +13,9 @@ import EasyForm from './estudoDeCaso/FormWithTextArea';
 import FlavorForm from './estudoDeCaso/FormSelect';
 import Reservation from './estudoDeCaso/ManipulandoMultiplosInputs';
 import Calculator from './estudoDeCaso/calculadoraDeTemperatura'
+import FancyBorder from './estudoDeCaso/herancaChildren';
+import WelcomeDialog from './estudoDeCaso/herancaChildren';
+import SignUpDialog from './estudoDeCaso/composicaoChildren2';
 
 //STATE PODE SER ALTERADO DENTRO DE UM OBJETO POR UM USUÁRIO, MAS PROPS NÃO!!
 
@@ -21,6 +24,6 @@ import Calculator from './estudoDeCaso/calculadoraDeTemperatura'
         //Estou passando o objeto a ser rendenrizado e onde ele vai ser renderizado
         //Esse Clock é uma função que eu passei que estou usando ele como um elemento do react
        
-        <Calculator />,
+        <SignUpDialog/>,
         document.getElementById('root')
     );
