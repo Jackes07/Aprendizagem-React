@@ -16,6 +16,9 @@ import Calculator from './estudoDeCaso/calculadoraDeTemperatura'
 import FancyBorder from './estudoDeCaso/herancaChildren';
 import WelcomeDialog from './estudoDeCaso/herancaChildren';
 import SignUpDialog from './estudoDeCaso/composicaoChildren2';
+import Glossario from './GuiasAvançados/Acessibilidade/acess';
+import ClickForaExemplo from './GuiasAvançados/Acessibilidade/acessClick';
+import ExamploDeBlur from './GuiasAvançados/Acessibilidade/garantindoAcessComTeclado';
 
 //STATE PODE SER ALTERADO DENTRO DE UM OBJETO POR UM USUÁRIO, MAS PROPS NÃO!!
 
@@ -24,6 +27,6 @@ import SignUpDialog from './estudoDeCaso/composicaoChildren2';
         //Estou passando o objeto a ser rendenrizado e onde ele vai ser renderizado
         //Esse Clock é uma função que eu passei que estou usando ele como um elemento do react
        
-        <SignUpDialog/>,
+        <ExamploDeBlur />,
         document.getElementById('root')
     );
